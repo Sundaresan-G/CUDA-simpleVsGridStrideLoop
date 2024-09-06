@@ -1,0 +1,21 @@
+Device: Tesla V100-SXM2-32GB
+maxThreadsPerMultiProcessor: 2048
+multiProcessorCount: 80
+Transfer size (MB): 120
+Single Precision
+Simple Kernel results
+Block Size, Grid Size, Bandwidth (GB/s):
+        64,    491520, 291.874207
+       128,    245760, 580.136169
+       256,    122880, 737.028259
+       512,     61440, 737.028259
+      1024,     30720, 732.421875
+
+Grid Stride Loop Kernel results
+Block Size, Grid Size, Bandwidth (GB/s):
+        64,      2560, 703.828796
+       128,      1280, 681.322693
+       256,       640, 701.721558
+       512,       320, 695.474792
+      1024,       160, 691.371704
+
